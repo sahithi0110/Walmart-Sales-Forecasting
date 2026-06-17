@@ -1,7 +1,11 @@
 # Walmart Sales Forecasting
 
 ## Project Overview
-This project aims to analyze historical Walmart sales data and build machine learning models to predict future weekly sales.
+This project analyzes Walmart's historical sales data and aims to forecast future weekly sales using data analytics and machine learning techniques.
+
+## Team Members
+- Person A: Data Analysis and EDA
+- Person B: Repository Management, Documentation, and Project Setup
 
 ## Dataset
 Source: Kaggle Walmart Sales Dataset
@@ -18,14 +22,59 @@ Dataset Features:
 
 ## Objectives
 - Perform Exploratory Data Analysis (EDA)
-- Identify sales trends and seasonal patterns
-- Build predictive models
-- Forecast future weekly sales
+- Understand sales trends and seasonality
+- Analyze factors affecting sales
+- Build predictive models for sales forecasting
+- Evaluate model performance
 
-## Folder Structure
+## Project Structure
 
-data/       -> Dataset files
-src/        -> Python source code
-notebooks/  -> Analysis notebooks
-outputs/    -> Graphs and results
-report/     -> Project report
+```
+Walmart-Sales-Forecasting/
+│
+├── data/
+│   └── Walmart_sales.csv
+│
+├── src/
+│
+├── notebooks/
+│
+├── outputs/
+│
+├── report/
+│
+└── README.md
+```
+
+## Technologies Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Git & GitHub
+
+## Current Progress
+- Dataset downloaded and loaded
+- Exploratory Data Analysis completed
+- Weekly sales trend visualization generated
+- Report preparation in progress
+
+## Setup Instructions
+
+1. Install Python 3
+
+2. Install required libraries:
+
+```bash
+pip install pandas matplotlib seaborn
+```
+
+3. Run the analysis script:
+
+```bash
+python analysis.py
+```
+
+## Expected Outcome
+
+The project will identify patterns in Walmart sales data and develop forecasting models that can predict future weekly sales with reasonable accuracy.
