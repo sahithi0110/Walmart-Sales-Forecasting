@@ -1,80 +1,55 @@
-# Walmart Sales Forecasting
+# Walmart Store Sales Forecasting
 
 ## Project Overview
-This project analyzes Walmart's historical sales data and aims to forecast future weekly sales using data analytics and machine learning techniques.
 
-## Team Members
-- Person A: Data Analysis and EDA
-- Person B: Repository Management, Documentation, and Project Setup
+This project focuses on analyzing Walmart store sales data and building a forecasting pipeline using historical sales information.
 
-## Dataset
-Source: Kaggle Walmart Sales Dataset
+## Dataset Files
 
-Dataset Features:
-- Store
-- Date
-- Weekly_Sales
-- Holiday_Flag
-- Temperature
-- Fuel_Price
-- CPI
-- Unemployment
+* train.csv – Historical sales records
+* features.csv – Additional store and economic features
+* stores.csv – Store information
 
-## Objectives
-- Perform Exploratory Data Analysis (EDA)
-- Understand sales trends and seasonality
-- Analyze factors affecting sales
-- Build predictive models for sales forecasting
-- Evaluate model performance
+## Work Completed
 
-## Project Structure
+### Data Collection
 
-```
-Walmart-Sales-Forecasting/
-│
-├── data/
-│   └── Walmart_sales.csv
-│
-├── src/
-│
-├── notebooks/
-│
-├── outputs/
-│
-├── report/
-│
-└── README.md
-```
+* Obtained Walmart Recruiting Store Sales Forecasting dataset
+* Organized data into structured folders
 
-## Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Git & GitHub
+### Data Cleaning
 
-## Current Progress
-- Dataset downloaded and loaded
-- Exploratory Data Analysis completed
-- Weekly sales trend visualization generated
-- Report preparation in progress
+* Checked dataset structure and data types
+* Identified missing values
+* Removed duplicate records
+* Performed data consistency checks
 
-## Setup Instructions
+### Exploratory Data Analysis (EDA)
 
-1. Install Python 3
+* Statistical summary of numerical features
+* Missing value analysis
+* Sales trend analysis
+* Correlation analysis
+* Store-wise sales comparison
+* Holiday impact analysis
 
-2. Install required libraries:
+## Tools Used
 
-```bash
-pip install pandas matplotlib seaborn
-```
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-3. Run the analysis script:
+## Repository Structure
 
-```bash
-python analysis.py
-```
+data/
+notebooks/
+outputs/
+report/
+src/
 
-## Expected Outcome
+## Status
 
-The project will identify patterns in Walmart sales data and develop forecasting models that can predict future weekly sales with reasonable accuracy.
+Week 1–2: Data Understanding, Cleaning, and EDA Completed.
